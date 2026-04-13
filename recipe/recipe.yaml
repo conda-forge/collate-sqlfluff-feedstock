@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: collate-sqlfluff
-  version: "3.5.1"
+  version: "3.5.2"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/collate_sqlfluff-${{ version }}.tar.gz
-  sha256: 642ecdffd3905afa1a36cd44e8dea3e4c5022923f9903040d9d9ee7a5f1f0f37
+  sha256: 2dcde2d29177656704f71c9235f5b9c9c8cdff459f25f15ad1323029253e0b66
 
 build:
   number: 0
